@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+<head>
+
+    <title>Calificaciones</title>
+    <meta charset = "uf-8" />
+
+</head>
+
+<body>
+
+    <script>
+
+        var calificacion = prompt("Ingrese la calificacion numerica: ");
+
+        if(Number(calificacion)==calificacion) {
+
+            if (calificacion > 90) {
+                alert("Felicidades A +");
+            }
+
+            else if (calificacion > 80 && calificacion < 91){
+                alert("B");
+            }
+
+            else if (calificacion > 70 && calificacion < 81){
+                alert("C");
+            }
+
+            else if (calificacion > 60 && calificacion < 71){
+                alert("D");
+            }
+
+            else if (calificacion < 61){
+                alert("F");
+            }
+
+        }
+        
+        else{
+
+            alert("Error de datos");
+        
+        }
+    </script>
+
+</body>
+
+</html>
